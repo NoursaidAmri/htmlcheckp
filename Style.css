@@ -1,0 +1,19 @@
+/* chemin font que nous allons utiliser ROBOTO LT + ROBOTO Black */
+@font-face {
+  font-family: "ROBOTOLight";
+  src: url("Font/robotolight.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ROBOTOBLACK";
+  src: url("Font/robotoblack.ttf");
+}
+/* integration des fonts*/
+body {
+  font-family: "ROBOTOLight";
+}
+
+h1 {
+  font-family: "ROBOTOBLACK";
+}
