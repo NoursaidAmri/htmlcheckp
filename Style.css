@@ -2,8 +2,6 @@
 @font-face {
   font-family: "ROBOTOLight";
   src: url("Font/robotolight.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 @font-face {
   font-family: "ROBOTOBLACK";
@@ -16,4 +14,35 @@ body {
 
 h1 {
   font-family: "ROBOTOBLACK";
+  font-size: 100pt;
+}
+#menu {
+  text-align: center;
+}
+#menu ul {
+  list-style: none; /* attribut style du menu */
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline-block; /* mettre en ligne et en block le menu */
+}
+
+#menu ul li a {
+  padding: 10px 20px; /* reglage de a marge interieur */
+  text-decoration: none;
+  color: black;
+}
+#menu ul li a:hover {
+  background-color: #212121; /* style Hover ecriture plus la couleur de lecriture */
+  color: aliceblue;
+  border-radius: 3px; /* bordure hover */
+}
+
+#Portail {
+  display: flex; /* Utilise la mise en page flexbox */
+  align-items: center; /* Centrer les éléments verticalement */
+}
+.logo{
+    margin-right: 700px; /* marge droit logo */
 }
