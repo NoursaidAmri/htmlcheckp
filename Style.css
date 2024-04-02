@@ -11,6 +11,8 @@
 /* integration des fonts*/
 body {
   font-family: "ROBOTOLight";
+  margin-left: 60px;
+  margin-right: 100px;
 }
 
 h1 {
@@ -61,19 +63,53 @@ h1 {
   margin-left: 60px;
 }
 
-.bouton{
-    background-color: #4CAF50; /* Style Bouton */
-    border: none; 
-    color: white; 
-    padding: 10px 20px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
-    cursor: pointer; 
-    border-radius: 4px;
+.bouton {
+  background-color: #4caf50; /* Style Bouton */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 .bouton:hover {
-    background-color: #2e6e31; /* bouton hover */
-  }
+  background-color: #2e6e31; /* bouton hover */
+}
+
+.Contenairereseaux {
+  display: flex;
+  align-items: center;
+}
+
+.Contenairereseaux a {
+  margin-right: 10px; /* Espacement entre les boutons */
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.Contenairereseaux a:hover {
+  opacity: 0.8; /* Réduit l'opacité au survol */
+}
+
+.bouton-fb {
+    width: -100px;
+}
+
+.bouton-twitter {
+}
+
+.bouton-pinterest {
+}
+
+.bouton-instagram {
+}
+
+.bouton-behance {
+}
