@@ -251,3 +251,67 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
+
+/* footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content { /* contenu du footer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo img { /* disposition logo footer */
+  display: flex;
+  width: 120px;
+  height: auto;
+}
+
+.footer-logo h2 { /* disposition logo titre h2 footer */
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-links ul {/* lien reseaux style */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links a { /* lien nav style */
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
