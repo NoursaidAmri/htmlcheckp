@@ -175,7 +175,75 @@ th {
 tr:hover {
   background-color: #f5f5f5;
 }
+#contact {
+  text-align: center;
+  padding: 20px;
+}
 
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical; /* Permet à l'utilisateur de redimensionner la zone de texte verticalement */
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour les messages d'erreur */
+input:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  outline: none;
+}
+
+/* Style pour les messages de succès */
+input:valid,
+textarea:valid {
+  border-color: green;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  outline: none;
+}
 tr:nth-child(even) {
   background-color: #fafafa;
 }
