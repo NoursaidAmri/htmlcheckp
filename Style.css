@@ -12,7 +12,6 @@
 body {
   font-family: "ROBOTOLight";
   margin-left: 60px;
-  margin-right: 100px;
 }
 
 h1 {
@@ -60,7 +59,7 @@ h1 {
   margin-top: -500px;
   margin-right: 800px;
   margin-bottom: 200px;
-  margin-left: 60px;
+  margin-left: 0;
 }
 
 .bouton {
@@ -80,36 +79,37 @@ h1 {
   background-color: #2e6e31; /* bouton hover */
 }
 
-.Contenairereseaux {
-  display: flex;
-  align-items: center;
+.RS ul{ /* Style bouton reseaux sociaux */
+position: absolute;
+display: flex;
+margin-left: 0;
+}
+.RS ul li{
+  list-style: none;
+  margin: 0 10px;
 }
 
-.Contenairereseaux a {
-  margin-right: 10px; /* Espacement entre les boutons */
-  text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
+.RS ul li .fab{
+  font-size: 35px;
+  line-height: 60px;
+  transition: 1s;
+  color: green
 }
+.RS ul li a:hover{ /* Style hover bouton reseaux sociaux */
+  color: red;
+}
+.RS ul li a{
+position: relative;
+display: block;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgb(0,0,02);
+transition: .2s;
+}
+.RS ul li a :hover{
+  transform: translate(0, -10%);
+  }
 
-.Contenairereseaux a:hover {
-  opacity: 0.8; /* Réduit l'opacité au survol */
-}
-
-.bouton-fb {
-    width: -100px;
-}
-
-.bouton-twitter {
-}
-
-.bouton-pinterest {
-}
-
-.bouton-instagram {
-}
-
-.bouton-behance {
-}
+  
